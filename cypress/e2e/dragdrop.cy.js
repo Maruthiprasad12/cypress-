@@ -2,7 +2,7 @@ describe('Drag and Drop', () => {
     it('Drag And Drop', () => {
       cy.visit('https://kitchen.applitools.com/ingredients/drag-and-drop')
     //   cy.get('#menu-fried-chicken').drag('#plate-items')
-    //   cy.get("#menu-hamburger").drag("#plate-items")
+     //   cy.get("#menu-hamburger").drag("#plate-items")
     //    2nd apporch
     const dataTransfer = new DataTransfer();
     cy.get('#menu-fried-chicken').trigger('dragstart',{

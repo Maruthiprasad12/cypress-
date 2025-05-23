@@ -12,6 +12,10 @@ class loginpage{
     submittbutton(){
         return'button[type="submit"]'
     }
+    errormessage(){
+        return 'Invalid credentials'
+    }
+    
 }
 
 const login=new loginpage()
