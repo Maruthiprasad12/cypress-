@@ -32,5 +32,5 @@ Feature: verify login functionality
             And user need clicks on PIM
             And user need clicks on addemployee
             And user enter the firstname "maruthi" and lastname "prasad"
-            And user enter the id number "010820"
+            And user enter the id number "12345"
             Then user clicks save button

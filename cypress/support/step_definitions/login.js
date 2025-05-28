@@ -1,5 +1,6 @@
-import { Given, When, Then , And } from '@badeball/cypress-cucumber-preprocessor'
+import { Given, When, Then , } from '@badeball/cypress-cucumber-preprocessor'
 import login from"../../pages/loginpage"
+import addpage from '../../pages/addemployee'
  
 Given('user launch the application', ()=>{
 
