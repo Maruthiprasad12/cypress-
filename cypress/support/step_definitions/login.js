@@ -39,7 +39,7 @@ When("user enter the firstname {string} and lastname {string}",(firstname,lastna
 })
 
 When('user enter the id number {string}',(number)=>{
-    cy.get(addpage.idinput()).type(number)
+    cy.get(addpage.idinput()).last().type(number)
 })
 
 Then('user clicks save button',()=>{
