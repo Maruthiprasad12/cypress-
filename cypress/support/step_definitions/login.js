@@ -1,6 +1,7 @@
 import { Given, When, Then , } from '@badeball/cypress-cucumber-preprocessor'
 import login from"../../pages/loginpage"
 import addpage from '../../pages/addemployee'
+import data from "../../fixtures/input.json"
  
 Given('user launch the application', ()=>{
 
@@ -36,6 +37,10 @@ When("user need clicks on addemployee",() =>{
 When("user enter the firstname {string} and lastname {string}",(firstname,lastname)=>{
     cy.get(addpage.firstname()).type(firstname)
     cy.get(addpage.lastname()).type(lastname)
+})
+ When("user enter the firstname and lastname",()=>{
+    cy.get(addpage.firstname()).type(data.firstname)
+    cy.get(addpage.lastname()).type(data.lastname)
 })
 
 When('user enter the id number {string}',(number)=>{
