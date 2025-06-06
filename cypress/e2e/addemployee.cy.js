@@ -17,7 +17,7 @@ describe('verify add employee functionalities', () => {
     cy.contains('PIM').click()
     cy.contains('Add Employee').click()
     cy.get('input[name="firstName"]').type("Prasad")
-    cy.get('input[name="lastName"]').type("P C")
+    cy.get('input[name="lastName"]').type("PC")
     cy.get("button[type='submit']").click()
     cy.contains('Successfully Saved').should("be.visible")
   })
