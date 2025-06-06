@@ -1,4 +1,4 @@
-import reddiff from"../pages/reddiffpage"
+import reddiff from"../../pages/reddiffpage"
 // describe('Working with element', () => {
 //     it('Working on Edit Box element ', () => {   
 //     cy.visit('/web/index.php/auth/login')

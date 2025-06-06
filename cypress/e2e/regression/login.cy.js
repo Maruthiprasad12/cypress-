@@ -1,5 +1,5 @@
-import login from"../pages/loginpage"
-import data from"../fixtures/loginpasswords.json"
+import login from"../../pages/loginpage"
+import data from"../../fixtures/loginpasswords.json"
 describe('Verify Login functionality', () => {
 
 

@@ -9,7 +9,7 @@ module.exports = defineConfig({
     defaultCommandTimeout: 40000,
        "baseUrl":"https://opensource-demo.orangehrmlive.com",
        "cookievalue":"orangehrm=tqj0vm70miegufae6v03n3bljl",
-      specPattern: "**/*.feature",
+      // specPattern: "**/*.feature",
     setupNodeEvents(on, config) {
        on("file:preprocessor",
       createBundler({
